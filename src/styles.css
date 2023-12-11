@@ -1,0 +1,48 @@
+.container {
+  width: 270px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.cell-fixed {
+  background-color: #bbbbbb;
+}
+
+.cell-selected {
+  border: 3px solid blue;
+}
+
+.num-selected {
+  background-color: #bbbbbb;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  margin-right: -10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 5px 10px;
+  flex: 1;
+  margin-right: 10px;
+}
